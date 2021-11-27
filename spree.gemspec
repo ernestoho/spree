@@ -20,6 +20,8 @@ Gem::Specification.new do |s|
   }
 
   s.required_ruby_version = '>= 2.5'
+  s.require 'spree_multi_vendor/factories'
+
 
   s.files        = Dir['README.md', 'lib/**/*']
   s.require_path = 'lib'
